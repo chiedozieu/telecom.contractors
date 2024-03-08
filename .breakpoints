@@ -1,0 +1,20 @@
+{
+  "files": {
+    "static/css/styles.css": [
+      {
+        "id": "472fb0d2-1475-4fdd-a2da-2b00f9ca563c",
+        "line": 8,
+        "version": 1,
+        "index": 137
+      }
+    ],
+    "templates/home.html": [
+      {
+        "id": "51d9c9a5-470e-4a79-b548-e71ba6d691f0",
+        "line": 7,
+        "version": 118,
+        "index": 169
+      }
+    ]
+  }
+}
