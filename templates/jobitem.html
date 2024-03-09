@@ -1,0 +1,15 @@
+<div id= "jobs">
+  <div>
+    <h4>{{job['title']}}</h4>
+    <div>
+      <b> Location:</b>{{ job['location'] }}
+    </div>
+  
+     {% if 'cost' in job %}
+    <div>
+      <b> Amount:</b>{{ job['cost'] }}
+    </div>
+    {% endif %}
+  </div>
+  <button class="btn">More Info</button>
+</div>

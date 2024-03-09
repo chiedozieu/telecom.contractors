@@ -1,35 +1,32 @@
 * {
     margin: 0;
     padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    /* text-transform: capitalize; */
+    text-decoration: none; 
     box-sizing: border-box; 
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #eee ;
+    
 }
 
 .header{
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 9%;
-    background: #fff;    
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  background: #d22b71;     
  }
  .header h1{
-    color: rgb(238, 8, 153); 
+   color: rgb(216, 181, 203); 
    
  }
  
 
  .nav_container a {
-    color: rgb(238, 8, 153);
+   color: rgb(216, 181, 203);
  }
  .nav_container a:hover {
     color: rgb(24, 2, 44);
@@ -37,9 +34,7 @@ body {
 
 
 .banner img {
-    width: 100%;
-    /* height: 500px; */
-    
+    width: 100%; 
 }
 .section_one{
     margin: 1rem 2rem 1rem 1rem;
@@ -112,4 +107,109 @@ section div a:hover {
 .half_row h6 {
     color: #2d2c2c;
     padding: 1rem;
+}
+
+#what_we_do h2 {
+  text-align: center;
+  margin: 3rem;
+  
+}
+
+#what_we_do h4 {
+  color: #787878;
+  margin-bottom: .3rem;
+}
+#jobs {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eeeded;
+  padding-bottom: .5rem;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #2196F3;
+  color: dodgerblue;
+  border-radius: .5rem;
+}
+
+
+.btn:hover{
+  background: #2196F3;
+  color: white;
+
+}
+
+#footer-container{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://1ef83fa4-e245-47ff-9ab0-62cb3e82eba0-00-1amelfzwhn01r.janeway.replit.dev/static/images/bgfooter.png);
+
+}
+
+.footer-info{
+
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5rem;
+
+}
+
+
+.footer-info a{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.footer-info a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.footer-info p{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+.phonecall{
+    display: flex;
+    padding: .3rem;
+    margin-top: .3rem;
+}
+
+
+
+
+#footer-bottom {
+    color: yellow;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#footer-bottom p{
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+}
+#footer-bottom a{
+
+    font-family: 'Quicksand', sans-serif;
+    color: yellow;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+#footer-bottom a:hover{
+    color: blue;
+}
+.socials {
+    margin-right: .3rem;
 }

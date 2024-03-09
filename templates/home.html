@@ -9,15 +9,9 @@
   
 </head>
 <body>
-    <header class="header" >
-        <h1>Telecom Contractors</h1>
-        <nav class="nav_container">
-            <a href="" >Home</a>
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
-            <a href="">About</a>  
-        </nav>
-    </header>
+    
+    {% include 'header.html' %}
+    
     <div class="banner">
         <img src="https://1ef83fa4-e245-47ff-9ab0-62cb3e82eba0-00-1amelfzwhn01r.janeway.replit.dev/static/images/Do%20more.png" alt="">
     </div>
@@ -72,6 +66,23 @@
         </div> 
 
     </section>
+    <div id= "what_we_do">
+          <h2>What we do</h2>
+          <div>
+            {% for job in jobs %}  
+            {% include 'jobitem.html' %}
+
+            {% endfor %}
+          
+          </div>
+    </div>
+          <!-- <div><button class="button">Conact Us</button></div> -->
+
+
+
+          
+        <!-- FOOTER -->
+         {% include 'footer.html' %}
     
     
 </body>
