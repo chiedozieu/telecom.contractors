@@ -13,7 +13,7 @@ JOBS = [
     'id': 2,
     'title': 'Fiber Installion',
     'location': 'Nigeria',
-    'cost': 'NGN 70,000'
+    'cost': 'NGN 79,000'
   },
     
   
@@ -21,7 +21,7 @@ JOBS = [
     'id': 3,
     'title': 'Radio Installation',
     'location': 'Nigeria',
-    'cost': 'NGN 500,000'
+    'cost': 'NGN 550,000'
   
   },
   {
