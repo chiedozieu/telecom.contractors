@@ -109,6 +109,10 @@ section div a:hover {
     padding: 1rem;
 }
 
+#what_we_do {
+  margin: 0 7rem;
+}
+
 #what_we_do h2 {
   text-align: center;
   margin: 3rem;
@@ -118,12 +122,17 @@ section div a:hover {
 #what_we_do h4 {
   color: #787878;
   margin-bottom: .3rem;
+  
 }
 #jobs {
   margin-bottom: 1rem;
   border-bottom: 1px solid #eeeded;
   padding-bottom: .5rem;
+  display: flex;
+  justify-content: space-between;
+
 }
+
 .btn {
   border: 2px solid black;
   background-color: white;
