@@ -28,7 +28,7 @@ JOBS = [
    'id': 4,
    'title': 'PABX Installation',
    'location': 'Nigeria',
-   'cost': 'NGN 750,000'
+   'cost': 'NGN 850,000'
 
   }
 ]
